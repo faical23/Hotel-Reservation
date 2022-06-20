@@ -1,0 +1,341 @@
+.HeroHome{
+    padding:80px 10%;
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    .HeroHome__Content{
+        width: 50%;
+        button{
+            font-size:15px;
+            border-radius: 50px;
+            display: flex;
+            align-items:center;
+            padding:10px 30px;
+            border: none;
+            font-family: 'poping-Semibold';
+            background-color:#f8ecf1;
+            color: #f1347c;
+            img{
+                width: 40px;
+                margin-left: 20px;
+            }
+        }
+        h1{
+            padding:30px 0px;
+            font-size: 60px;
+            font-family: 'poping-Bold';
+            font-weight: bolder;
+            width: 100%;
+            letter-spacing:2px;
+            img{
+                margin: 0px 30px ;
+            }
+        }
+        p{
+            font-family: 'poping-Medium';
+            font-size:18px;
+            line-height:30px;
+            color:#a3a3a3;
+        }
+
+        .Btns{
+            display:flex;
+            align-items:center;
+            margin-top: 40px;
+                button{
+                    background-color:rgb(101, 101, 238);
+                    border: 1px solid rgb(101, 101, 238);
+                    color: white;
+                    padding:12px 35px;
+                    font-size:19px;
+                    cursor: pointer;
+                    &:hover{
+                        border: 1px solid rgb(101, 101, 238);
+                        background-color:transparent;
+                        color: rgb(101, 101, 238); 
+                    }
+                }
+        }
+    }
+}
+
+.WhatWeServe{
+    padding:0px 12%;
+    .WhatWeServe__Introduction{
+        img{
+            width:60px;
+        }
+        h6{
+            font-family: 'poping-Medium';
+            font-size:28px;
+            color: rgb(93, 93, 231);
+            padding: 10px 0px;
+            font-weight:600;
+            letter-spacing: 3px;
+        }
+        h1{
+            font-family: 'poping-Bold';
+            font-weight: bolder;
+            font-size:60px;
+            line-height:80px;
+            padding:10px 0px;
+            width: 100%;
+        }
+        p {
+            font-family: 'poping-Medium';
+            font-size:16px;
+            line-height:30px;
+            color:#a3a3a3;
+        }
+    }
+    .WhatWeServe__Items{
+        .WhatWeServe__Items__Single{
+            padding-bottom: 40px;
+        }
+        img{
+            width:100px;
+            margin-bottom:20px;
+        }
+        width: 80%;
+        margin: 0px auto;
+        h3{
+            font-family: 'poping-Bold';
+            font-size:28px;
+            padding: 10px 0px;
+            font-weight:bolder;
+            text-transform:  capitalize;
+        }
+        p{
+            font-family: 'poping-Medium';
+            font-size:17px;
+            line-height:30px;
+            color:#a3a3a3; 
+        }
+        span{
+            font-family: 'poping-Bold';
+            font-size:13px;
+            line-height:30px;
+            color: #f1347c;
+            
+        }
+    }
+    .SecondItems{
+        margin-top:80px;
+    }
+}
+.Tophotels{
+    .Tophotels__Title{
+        padding: 0px 10%;
+    }
+    h6{
+        font-family: 'poping-Medium';
+        font-size:28px;
+        color: rgb(93, 93, 231);
+        padding: 10px 0px;
+        font-weight:600;
+        letter-spacing: 3px;
+    }
+    h1{
+        font-family: 'poping-Bold';
+        font-weight: bolder;
+        font-size:60px;
+        line-height:80px;
+        padding:10px 0px;
+        width: 100%;
+    }
+    
+::-webkit-scrollbar {
+    position: relative;
+  }
+  
+    .Tophotels__hotels{
+        overflow-x: auto;
+        display: -webkit-box;
+        padding: 0px 5%;
+        .Tophotels__hotels__single{
+            margin-top: 50px;
+            width: 400px;
+            cursor: pointer;
+
+            .HotelImg{
+                width:300px;
+                height:400px;
+                border-radius: 15px;
+                object-fit: cover;
+                box-shadow: 0px 0px 11px -5px;
+                transition: .3s ease-in-out;
+            }
+            h2{
+                font-family: 'poping-Bold';
+                font-weight: 700;
+                font-size:26px;
+                line-height:40px;
+                padding:10px 0px; 
+                width: 80%;
+                text-transform: capitalize;
+            }
+            p{
+                font-family: 'poping-Medium';
+                font-size:18px;
+                line-height:30px;
+                color:#a3a3a3;  
+            }
+            .ReviewsHotel{
+                display:flex;
+                align-items:center;
+                margin-top:20px;
+                button{
+                    font-family: 'poping-Semibold';
+                    background-color:#f8ecf1;
+                    color: #f1347c;
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    padding:8px 15px;
+                    border-radius: 50px;
+                    margin-right: 30px;
+                    width:90px;
+                    img{
+                        width: 25px;
+                    }
+                }
+
+            }
+            &:hover .HotelImg{
+                transform: scale(1.04)
+            }
+        }
+    }
+}
+.Statistique,.Reviews{
+    padding: 0px 10%;
+    display: flex;
+    align-items: start;
+    .Statistique__Img,.Statistique__Content,.Reviews__centent,.Reviews__Img{
+        width: 50%;
+    }
+    .Statistique__Content,.Reviews__centent{
+        .Statistique__Content__Introduction{
+            h6{
+                font-family: 'poping-Medium';
+                font-size:28px;
+                color: rgb(93, 93, 231);
+                padding: 10px 0px;
+                font-weight:600;
+                letter-spacing: 3px;
+            }
+            h1{
+                font-family: 'poping-Bold';
+                font-weight: bolder;
+                font-size:50px;
+                line-height:70px;
+                padding:10px 0px;
+                width: 100%;
+                img{
+                    width: 70px;
+                }
+            }
+            p{
+                padding: 20px 0px;
+                font-family: 'poping-Medium';
+                font-size:17px;
+                line-height:35px;
+                color:#a3a3a3;
+            }
+
+        }
+        .Statistique__Content__Items{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            h1{
+                font-family: 'poping-Bold';
+                font-weight: bolder;
+                font-size:40px;
+                padding:10px 0px;
+                color: rgb(93, 93, 231);
+            }
+            h2{
+                font-family: 'poping-Medium';
+                font-size:25px;
+                padding: 10px 0px;
+                font-weight:600;
+                letter-spacing: 3px;
+                
+            }
+        }
+    }
+}
+.Reviews{
+    margin-top:100px;
+    h1{
+        img{
+            margin: 10px 0px;
+        }
+    }
+    .CardReviews{
+        padding:30px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 11px -6px black;
+        background-color:white;
+        p{
+            font-family: 'Poppins-MediumItalic' !important;
+        }
+        h3{
+            font-size: 22px;
+            padding-bottom: 10px;
+        }
+        .RateRevwies{
+            display:flex;
+            align-items:center;
+            img{
+                width:30px;
+                margin-right: 12px !important;
+            }
+        }
+    }
+}
+.CardFinal{
+    padding: 100px 10%;
+    .CardFinal_Card{
+        background-color:#f8ecf1;
+        box-shadow: 0px 0px 11px -10px black;
+        border-radius: 20px;
+        text-align: center;
+        padding: 80px 20px;
+        img{
+            width: 60px;
+            margin: 0px auto;
+        }
+        h1{
+            font-family: 'poping-Bold';
+            font-weight: bolder;
+            font-size:50px;
+            line-height:70px;
+            padding:10px 0px;
+            width: 70%;
+            margin: 0px auto;
+        }
+        p{
+            padding: 20px 0px;
+            font-family: 'poping-Medium';
+            font-size:24px;
+            line-height:35px;
+            color:#4d4d4d;
+        }
+        button{
+            background-color:rgb(101, 101, 238);
+            border: 1px solid rgb(101, 101, 238);
+            color: white;
+            padding:12px 35px;
+            font-size:19px;
+            cursor: pointer;
+            border-radius: 50px;
+            &:hover{
+                border: 1px solid rgb(101, 101, 238);
+                background-color:transparent;
+                color: rgb(101, 101, 238); 
+            }
+        }
+    }
+}
